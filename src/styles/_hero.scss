@@ -1,0 +1,38 @@
+.hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+        margin-bottom: 64px;
+      
+
+
+        &__text {
+           text-align: center;
+            margin: 0 auto;
+            margin-bottom: 64px;
+            color: #fff;
+            font-size: 40px;
+            line-height: 56px;
+            font-weight: 800;
+            max-width: 916px;
+
+            @media screen and (max-width:640px){
+                max-width: 350px;
+            }
+          
+
+        }
+
+    }
+
+
+}
