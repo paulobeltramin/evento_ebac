@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,162 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
     <script src="./scripts/main.js" defer></script>
 </head>
 
 <body>
 
-  <header>
-     <div class="container">
-        <div class="hero">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="logo"> 
+    <header>
+        <div class="container">
+            <div class="hero">
+                <img class="hero__logo" src="./images/ebac_logo.svg" alt="logo">
 
-            <div>
-                <p class="hero__logo__text">
-                   O maior evento de tecnologia do brasil começa em 00D 00H 00M 00S 
-                </p>
+                <div>
+                    <p class="hero__logo__text">
+                        O maior evento de tecnologia do brasil começa em <span id="contador"></span>
+                    </p>
+                </div>
+
+                <div class="infos-bar">
+                    <ul class="infos-bar__list">
+                        <li class="infos-bar__list__item">
+                            <b>Localização</b>
+                            Allianz Parque - Barra Funda - São Paulo/SP
+                        </li>
+
+                        <li class="infos-bar__list__item">
+                            <b>Preço</b>
+                            A partir de R$ 129,00
+                        </li>
+
+                        <li class="infos-bar__list__item">
+                            <b>Quando</b>
+                            10/10/1010
+                        </li>
+                    </ul>
+
+                    <a href="#" class="button button--primary">
+                        Garantir minha vaga
+                    </a>
+                </div>
+
             </div>
+
+            <section class="event">
+
+
+
+
+                <div class="event__content" data-aos="fade-right">
+
+
+                    <div>
+
+                        <h2>
+                            Front-End
+                        </h2>
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquid pariatur fugit. Quo,
+                            harum? Nihil, aliquam? Nesciunt accusantium quisquam perspiciatis, molestias sit
+                            consequatur,
+                            illo quaerat est, voluptas nobis adipisci dolores.
+                        </p>
+                    </div>
+
+                    <img src="./images/frontend.png" alt="front-end">
+                </div>
+            </section>
+
+            <section class="event-2">
+
+
+
+                <div class="event-2__content" data-aos="fade-left">
+                    <img src="./images/ui-ux.png" alt="front-end">
+
+                    <div>
+
+                        <h2>
+                            UI/UX
+                        </h2>
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquid pariatur fugit. Quo,
+                            harum? Nihil, aliquam? Nesciunt accusantium quisquam perspiciatis, molestias sit
+                            consequatur,
+                            illo quaerat est, voluptas nobis adipisci dolores.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="event-3">
+
+
+
+                <div class="event-3__content" data-aos="fade-right">
+
+
+                    <div>
+
+                        <h2>
+                            Data-Science
+                        </h2>
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquid pariatur fugit. Quo,
+                            harum? Nihil, aliquam? Nesciunt accusantium quisquam perspiciatis, molestias sit
+                            consequatur,
+                            illo quaerat est, voluptas nobis adipisci dolores.
+                        </p>
+                    </div>
+
+                    <img src="./images/data.png" alt="front-end">
+                </div>
+            </section>
+
+            <section class="event-4">
+
+
+
+                <div class="event-4__content" data-aos="fade-left">
+
+                    <img src="./images/backend.png" alt="front-end">
+
+
+                    <div>
+
+                        <h2>
+                            Back-end
+                        </h2>
+
+                        <p>
+
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquid pariatur fugit. Quo,
+                            harum? Nihil, aliquam? Nesciunt accusantium quisquam perspiciatis, molestias sit
+                            consequatur,
+                            illo quaerat est, voluptas nobis adipisci dolores.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+
         </div>
-     </div>
+    </header>
 
 
-  </header>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
+
 </html>
